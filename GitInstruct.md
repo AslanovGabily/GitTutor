@@ -1,5 +1,17 @@
 # My Git instructions
 
+## Команды инициализации Git Bush 
+
+**git config —global user.name {name}** - задать имя пользователя
+
+**git config —global user.email {email}** - задать почту пользователя
+
+**git config —global core.editor {program}** - установить текстовый редактор по умолчанию
+
+**git config — list** - список конфигураций
+
+**git —version** - показ текущей версии git
+
 ## Базовые термены первого семинара
 
 * *git init* - инициализация локального репозитория;
