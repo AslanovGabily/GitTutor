@@ -67,3 +67,11 @@
 4. __Фиксируем изменения (делаем коммиты);__
 5. __Отправляем свою версию в свой GitHub;__
 6. __На сайте GitHub нажимаем кнопку pull request.__
+
+---
+
+## Полезные ссылки:
+1. [Официальная документация по Git](https://git-scm.com/docs/user-manual)
+2. [30 команд Git, необходимых для освоения интерфейса командной строки Git](https://habr.com/ru/companies/ruvds/articles/599929/)
+3. [Описание разметки файла .md](https://github.com/GnuriaN/format-README)
+4. [Информация о разметке .md](https://github.com/OlgaVlasova/markdown-doc/blob/master/README.md#Blockquotes)
