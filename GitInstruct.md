@@ -1,21 +1,40 @@
-# My Git instructions
+Введение в контроль версий. Работа с Git. Составление инструкции по работе с Git.
+## Основные команды Git
+* <span style="color:blue">*git init*</span> – инициализация локального репозитория.
 
-## Базовые термены первого семинара
+* <span style="color:blue">*git status*</span> – получить информацию от git о его текущем состоянии.
 
-* *git init* - инициализация локального репозитория;
+* <span style="color:blue">*git add*</span> – добавить файл или файлы к следующему коммиту.
 
-* *git status* – получить информацию от git о его текущем состоянии
+* <span style="color:blue">*git commit -m “message”*</span> – создание коммита.
 
-* *git checkout <название ветки>* – переход к другой ветке
+* <span style="color:blue">*git log*</span> – вывод на экран истории всех коммитов с их хеш-кодами.
 
-* *git add* – добавить файл или файлы к следующему коммиту
+* <span style="color:blue">*git checkout*</span> – переход от одного коммита к другому.
 
-* *git commit -m “message”* – создание коммита."
+* <span style="color:blue">*git checkout master*</span> – вернуться к актуальному состоянию и продолжить работу.
 
-* *git log* – вывод на экран истории всех коммитов с их хеш-кодами
+* <span style="color:blue">*git diff*</span> – увидеть разницу между текущим файлом и закоммиченным файлом.
 
-* *git branch* – посмотреть список веток в репозитории
+### Частые вопросы по git:
 
-* *git branch <название ветки>* – создать новую ветку
+#### Как отменить последний коммит?
 
-* *git clone <url-адрес репозитория>* – клонирование внешнего репозитория на  локальный ПК
+<тута будет ответ <span style="color:gray">скоро*</span>>
+
+#### Как отменить «git add» до коммита?
+
+<тута будет ответ <span style="color:gray">скоро*</span>>
+
+#### Как переименовать локальную ветку?
+
+<тута будет ответ <span style="color:gray">скоро*</span>>
+
+#### Как восстановить удалённый файл?
+
+<тута будет ответ <span style="color:gray">скоро*</span>>
+#### Как отменить «git add» до коммита?
+
+>Актуальный гайд по markdown - [Кликай сюда](https://www.markdownguide.org/basic-syntax/ "https://www.markdownguide.org/basic-syntax/")
+
+[<p align="right"><img src="geekbrains-logo.png" width="150"/></p>](/geekbrains-logo.png) 
