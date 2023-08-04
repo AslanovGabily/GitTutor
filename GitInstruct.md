@@ -19,3 +19,9 @@
 * *git branch <название ветки>* – создать новую ветку
 
 * *git clone <url-адрес репозитория>* – клонирование внешнего репозитория на  локальный ПК
+
+* *git push - upload local repository content to a remote repository*
+
+* *git pull - fetch and download content from a remote repository and immediately update the local repository to match that content*
+  *(will also merge whatever is coming from github and your local repository)*
+
