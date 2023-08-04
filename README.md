@@ -21,3 +21,7 @@
 - git push
 
 - git pull
+
+- git reset
+
+- git diff
