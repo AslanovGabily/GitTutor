@@ -25,3 +25,6 @@
 * *git pull - fetch and download content from a remote repository and immediately update the local repository to match that content*
   *(will also merge whatever is coming from github and your local repository)*
 
+* *git reset*--hard #### will delete a commit
+
+* *git diff** — показать разницу между версиями
