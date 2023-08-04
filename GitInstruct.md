@@ -20,21 +20,43 @@
 
 #### Как отменить последний коммит?
 
-<тута будет ответ <span style="color:gray">скоро*</span>>
+Для этого используем команду git reset, ее можно применить в двух вариациях.
+
+Первый вариант отменяет все изменения:
+
+>git reset --hard HEAD~1
+
+Второй вариант, если нужно сохранить всё, что вы сделали, но еще не успели закоммититье:
+
+>git reset --soft HEAD~1
+
+HEAD~1 означает один коммит до HEAD, т.е. до текущего положения.
 
 #### Как отменить «git add» до коммита?
 
-<тута будет ответ <span style="color:gray">скоро*</span>>
+Если вы выполнили git add для какого либо файла по ошбике и хотите это отменить, то выполните команду:
+
+>git reset имя_файла
+
+Это поможет вслучае того, если коммит еще не был сделан
 
 #### Как переименовать локальную ветку?
 
-<тута будет ответ <span style="color:gray">скоро*</span>>
+Это можно сделать командой:
+
+>git branch -m oldname newname
 
 #### Как восстановить удалённый файл?
 
-<тута будет ответ <span style="color:gray">скоро*</span>>
-#### Как отменить «git add» до коммита?
+Чтобы восстановить удаленный файл, для начала необходимо найти последний коммит, где этот файл ещё существует. Сделать это можно командой:
 
->Актуальный гайд по markdown - [Кликай сюда](https://www.markdownguide.org/basic-syntax/ "https://www.markdownguide.org/basic-syntax/")
+>git rev-list -n 1 HEAD -- file_name
+
+Дальше восстанавливаем файл:
+
+>git checkout тут_найденный_коммит^ -- file_name
+
+<hr>
+<span style="color:gray">Актуальный гайд по markdown</span> - [Кликай сюда](https://www.markdownguide.org/basic-syntax/ "https://www.markdownguide.org/basic-syntax/")
 
 [<p align="right"><img src="geekbrains-logo.png" width="150"/></p>](/geekbrains-logo.png) 
